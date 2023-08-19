@@ -118,12 +118,11 @@ svg{
 }
 @media  (max-width: 520px) {
  h1{
-        font-size: 40px;
+        font-size: 50px;
         margin: 30px;
     }
     #main {
      width: 100vw;
-     display: flex;
-     flex-direction: column;
+     display: block;
     }
 }
