@@ -123,16 +123,21 @@ svg{
         margin: 30px;
     }
     #main {
-     margin-top: 80px;
+     margin-top: 75px;
      width: 100vw;
      display: flex;
      flex-direction: column;
-     margin-left: 20px;
+     margin-left: 15px;
     }
     #skill-html{
         margin-bottom: 30px;
     }
     #skill-css{
         margin-bottom: 30px;
+    }
+    h2{
+        margin-top: 25px;
+        margin-left: 30px;
+        margin-bottom: 25px;
     }
 }
