@@ -117,12 +117,22 @@ svg{
     }
 }
 @media  (max-width: 520px) {
- h1{
-        font-size: 50px;
+    h1{
+        margin-left: 50px;
+        font-size: 40px;
         margin: 30px;
     }
     #main {
+     margin-top: 80px;
      width: 100vw;
-     display: block;
+     display: flex;
+     flex-direction: column;
+     margin-left: 20px;
+    }
+    #skill-html{
+        margin-bottom: 30px;
+    }
+    #skill-css{
+        margin-bottom: 30px;
     }
 }
