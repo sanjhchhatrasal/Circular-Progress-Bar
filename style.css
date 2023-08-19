@@ -117,32 +117,13 @@ svg{
     }
 }
 @media  (max-width: 520px) {
-    h1{
-        font-size: 30px;
-        margin: 20px;
+ h1{
+        font-size: 40px;
+        margin: 30px;
     }
     #main {
      width: 100vw;
-     margin-left: 40px;
-    }
-    #skill-html{
-        width: 100px;
-        height: 100px;
-    }
-    #skill-css{
-        width: 100px;
-        height: 100px;
-    }
-    #skill-js{
-        width: 130px;
-        height: 130px;
-    }
-    #outer{
-        width: 100px;
-        height: 100px;
-    }
-    #inner{
-        width: 90px;
-        height: 90px;
+     display: flex;
+     flex-direction: column;
     }
 }
